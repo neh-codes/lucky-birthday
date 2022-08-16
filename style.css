@@ -9,7 +9,6 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
 }
 .container{
   margin: 2rem auto;
@@ -32,8 +31,11 @@ input{
     color: #fff;
 }
 @media only screen and (max-width: 768px) {
-    .container{
-        margin: 3rem auto 3rem;
+  html{
+    height: 100vh;
+  }
+  .container{
+        margin: 3rem auto 7rem;
         width: 85%;
         padding: 1em;
     }

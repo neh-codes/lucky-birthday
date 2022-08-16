@@ -32,10 +32,10 @@ input{
 }
 @media only screen and (max-width: 768px) {
   html{
-    height: 100vh;
+    height: 100%;
   }
   .container{
-        margin: 3rem auto 7rem;
+        margin: 7rem auto 3rem;
         width: 85%;
         padding: 1em;
     }
